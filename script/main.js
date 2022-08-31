@@ -10,4 +10,6 @@ Todo List:
 	Not Decide yet
 
 */
-window.alert('Welcome!');
+console.log('Welcome!');
+let time = new Date();
+console.log(time);
