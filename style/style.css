@@ -2,13 +2,36 @@ h1{
 	color:#FF6B51;
 	font-size: 20px;
 	background-color: #000000;
-	margin: 0px 0px 0px 0px;
+	margin: 0 0 0 0;
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	height: 30px;
-	width: 500px;
+	height: 50px;
+	width:250px;
 	text-align: center;
+	line-height: 50px;
 	border-top-right-radius: 15px;
 	user-select: none;
+}
+menu{
+	background-color: #3F3F3F;
+	padding: 0 0 0 0;
+	color: #FFFFFF;
+	width: calc(100% - 230px);
+	height: 50px;
+	margin: 0 0 0 230px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	line-height: 50px;
+	display: inline;
+	user-select: none;
+}
+selection{
+	position: relative;
+	margin-left: 100px;
+}
+selection:hover{
+	cursor: pointer;
+	color: #FFCA18;
 }
