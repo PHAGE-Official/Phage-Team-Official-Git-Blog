@@ -11,10 +11,3 @@ Todo List:
 
 */
 console.log('Welcome!');
-function Get_Time(){
-	/*
-	Time Getting Function
-	*/
-	let time = new Date();
-	console.log(time);
-}
