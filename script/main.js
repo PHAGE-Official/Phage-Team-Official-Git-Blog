@@ -10,4 +10,9 @@ Todo List:
 	Not Decide yet
 
 */
-console.log('Welcome!');
+
+function Get_Time() {
+	let Time = new Date();
+	window.alert(Time);
+	return;
+}
