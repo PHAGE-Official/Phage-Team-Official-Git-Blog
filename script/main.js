@@ -3,7 +3,7 @@ Main.js
 --------------------------------------------------
 Author:NLTech Coporation & Phage Team
 Licence:PSSPL
-Time:2022/8/31/18:25
+Time:2022/09/01/22:02
 Version:0.0.1_Dev_Alpha
 --------------------------------------------------
 Todo List:
@@ -12,7 +12,17 @@ Todo List:
 */
 
 function Get_Time() {
+	// Get Current Time
 	let Time = new Date();
-	window.alert(Time);
-	return;
+	Second = Time.getSeconds();
+	console.log(Second);
+}
+
+function UA() {
+	/*
+	This Function Get Users's User-Agent 
+	and Save it in the Local Vistor Database
+	*/
+	var User_Agent = navigator.userAgent;
+	window.alert('User-Agent:'+User_Agent);
 }
