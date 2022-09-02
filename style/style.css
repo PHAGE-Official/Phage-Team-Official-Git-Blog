@@ -13,6 +13,7 @@ h1{
 	border-top-right-radius: 15px;
 	user-select: none;
 }
+
 #menubar{
 	background-color: #363636;
 	margin: 0 0 0 0;
@@ -33,6 +34,10 @@ h1{
 	cursor: pointer;
 	color: #FFCA61;
 }
+/*
+The Tool Bar Looks Like Macintonish's Gui 
+But it's At the Bottom of the Screen
+*/
 #toolbar{
 	background-color: #000000;
 	position: absolute;
@@ -63,11 +68,22 @@ h1{
 	background-color: #FC0000;
 	width: 18px;
 	height: 18px;
-	margin: auto;
 	position: inherit;
 	top: 5px;
-	right: 5px;
+	left:51px;
 }
 #red_tool_button:hover{
+	cursor: pointer;
+}
+#yellow_tool_button{
+	border-radius: 50%;
+	background-color: #FCFC00;
+	width: 18px;
+	height: 18px;
+	position: inherit;
+	top: 5px;
+	left: 28px;
+}
+#yellow_tool_button:hover{
 	cursor: pointer;
 }

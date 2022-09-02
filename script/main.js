@@ -18,11 +18,18 @@ function Get_Time() {
 	console.log(Second);
 }
 
-function UA() {
+function Exit() {
 	/*
-	This Function Get Users's User-Agent 
-	and Save it in the Local Vistor Database
+	This Function Will Let User Leave The Current Page
 	*/
-	var User_Agent = navigator.userAgent;
-	window.alert('User-Agent:'+User_Agent);
+	let confirm = window.confirm('Are You Sure To Leave?');
+	if (confirm == true) {
+		window.close();
+	}
+}
+
+function About(){
+
+	console.log('This Website Is Developed By Phage Team');
+	document.createElement('div');
 }
