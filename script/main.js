@@ -54,3 +54,10 @@ function About(){
 		Flag = true;
 	}
 }
+
+function User_Device(){
+	let Screen_Size = [];
+	Screen_Size.push(window.screen.width);
+	Screen_Size.push(window.screen.height);
+	window.alert('Monitor Size:'+Screen_Size[0]+'x'+Screen_Size[1]);
+}
