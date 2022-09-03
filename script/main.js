@@ -57,7 +57,11 @@ function About(){
 
 function User_Device(){
 	let Screen_Size = [];
+	let CPU_Type = navigator.cpuClass;
+	let Platfrom = navigator.platform;
 	Screen_Size.push(window.screen.width);
 	Screen_Size.push(window.screen.height);
-	window.alert('Monitor Size:'+Screen_Size[0]+'x'+Screen_Size[1]);
+	window.alert('Monitor Size:'+Screen_Size[0]+'x'+Screen_Size[1]+
+		'\nCPU:'+CPU_Type+
+		'\nPlatfrom:'+Platfrom);
 }
