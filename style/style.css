@@ -40,13 +40,14 @@ But it's At the Bottom of the Screen
 */
 #toolbar{
 	background-color: #000000;
-	position: absolute;
+	position: fixed;
 	bottom: 0px;
 	height: 30px;
 	width: 250px;
 	margin: auto;
 	left: 0;
 	right: 0;
+	bottom: 0;
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
 }
@@ -56,9 +57,9 @@ But it's At the Bottom of the Screen
 	width: 18px;
 	height: 18px;
 	margin: auto;
-	position: inherit;
-	top: 5px;
-	left: 5px;
+	position: absolute;
+	top: 6px;
+	left: 6px;
 }
 #green_tool_button:hover{
 	cursor: pointer;
@@ -68,9 +69,9 @@ But it's At the Bottom of the Screen
 	background-color: #FC0000;
 	width: 18px;
 	height: 18px;
-	position: inherit;
-	top: 5px;
-	left:51px;
+	position: absolute;
+	left: 54px;
+	bottom: 6px;
 }
 #red_tool_button:hover{
 	cursor: pointer;
@@ -80,9 +81,9 @@ But it's At the Bottom of the Screen
 	background-color: #FCFC00;
 	width: 18px;
 	height: 18px;
-	position: inherit;
-	top: 5px;
-	left: 28px;
+	position: absolute;
+	bottom: 6px;
+	left: 30px;
 }
 #yellow_tool_button:hover{
 	cursor: pointer;

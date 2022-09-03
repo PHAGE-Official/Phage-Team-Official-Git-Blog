@@ -30,6 +30,10 @@ function Exit() {
 
 function About(){
 
-	console.log('This Website Is Developed By Phage Team');
-	document.createElement('div');
+	let info = 'This Website Is Developed By Phage Team';
+	// Get The Body Element
+	let body = document.getElementsByTagName('body')[0];
+	let div = document.createElement('div');
+	body.appendChild(div);
+	div.innerHTML = info;
 }
