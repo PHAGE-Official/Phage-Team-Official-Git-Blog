@@ -99,17 +99,23 @@ But it's At the Bottom of the Screen
 }
 #blog{
 	position: relative;
-	border-raidus:5px;
 	left: 0;
 	right: 0;
 	top: 0;
-	bottom: 0;
+	margin: auto;
+	width: 650px;
+	border: 5px solid;
+	border-color: #000000;
+	border-radius: 20px;
 	margin-top: 50px;
 	text-align: center;
 	user-select: none;
 }
 #blog:hover{
 	cursor: pointer;
+	border-color: #FF6B51;
+	background-color: #000000;
+	color: #FFFFFF;
 }
 img{
 	position: relative;
