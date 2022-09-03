@@ -27,7 +27,7 @@ h1{
 }
 #menu{
 	color: #FFFFFF;
-	margin-left: 100px;
+	margin-left: 110px;
 	display: inline;
 }
 #menu:hover{
@@ -87,4 +87,12 @@ But it's At the Bottom of the Screen
 }
 #yellow_tool_button:hover{
 	cursor: pointer;
+}
+#info{
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 50%;
+	text-align: center;
+	position: absolute;
 }
