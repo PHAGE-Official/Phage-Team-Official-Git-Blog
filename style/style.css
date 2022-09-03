@@ -99,6 +99,7 @@ But it's At the Bottom of the Screen
 }
 #blog{
 	position: relative;
+	border-raidus:5px;
 	left: 0;
 	right: 0;
 	top: 0;
